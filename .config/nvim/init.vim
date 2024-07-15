@@ -61,6 +61,8 @@ let g:fzf_action = {
   \ 'ctrl-v': 'vsplit'
   \}
 
+autocmd BufWritePre * setlocal ff=unix
+
 
 
 
