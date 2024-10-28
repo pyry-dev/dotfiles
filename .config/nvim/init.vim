@@ -10,6 +10,8 @@ call plug#begin("~/.vim/plugged")
   Plug 'rust-lang/rust.vim'
   Plug 'preservim/tagbar'
   Plug 'dense-analysis/ale'
+  Plug 'NoahTheDuke/vim-just'
+
 call plug#end()
 "Config Section"
 
@@ -41,7 +43,7 @@ function! OpenTerminal()
   resize 10
 endfunction
 
-nnoremap <c-n> :call OpenTerminal()<CR>
+nnoremap <c-y> :call OpenTerminal()<CR>
 
 " use alt+hjkl to move between split/vsplit panels
 tnoremap <A-h> <C-\><C-n><C-w>h
