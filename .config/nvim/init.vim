@@ -11,9 +11,12 @@ call plug#begin("~/.vim/plugged")
   Plug 'preservim/tagbar'
   Plug 'dense-analysis/ale'
   Plug 'NoahTheDuke/vim-just'
+  Plug 'rmagatti/auto-session'
 
 call plug#end()
 "Config Section"
+
+lua require('auto_session_config')
 
 if (has("termguicolors"))
  set termguicolors

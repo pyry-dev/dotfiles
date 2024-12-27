@@ -9,3 +9,7 @@
 .config/nvim/*
 
 !.config/nvim/init.vim
+
+!.config/nvim/lua
+.config/nvim/lua/*
+!.config/nvim/lua/auto_session_config.lua
