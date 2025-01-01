@@ -13,6 +13,7 @@ call plug#begin("~/.vim/plugged")
   Plug 'NoahTheDuke/vim-just'
   Plug 'rmagatti/auto-session'
   Plug 'ziglang/zig.vim'
+  Plug 'github/copilot.vim'
 call plug#end()
 "Config Section"
 
