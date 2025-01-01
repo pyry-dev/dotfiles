@@ -12,7 +12,7 @@ call plug#begin("~/.vim/plugged")
   Plug 'dense-analysis/ale'
   Plug 'NoahTheDuke/vim-just'
   Plug 'rmagatti/auto-session'
-
+  Plug 'ziglang/zig.vim'
 call plug#end()
 "Config Section"
 
